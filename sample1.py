@@ -1,0 +1,15 @@
+x=12
+print(x)
+y=2.0001
+print(y)
+z=2+158j
+print(z)
+print(type(x))
+print(type(y))
+print(type(z))
+a=float(x)
+print(a)
+b=int(y)
+print(b)
+c=complex(x)
+print(c)

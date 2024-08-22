@@ -1,0 +1,31 @@
+x=("door","pen","papaya","apple","banana")
+print(x)
+print(type(x))
+print(len(x))
+print(x[2])
+print(x[1:4])
+
+print(x[-5:-2])
+
+print(x[3:])
+
+print(x[:5])
+print(x[-3:])
+
+print(x[:-3])
+print ("apple" in x)
+print ("apple" not in x)
+y=list(x)
+print(y)
+y.append("orange")
+print(y)
+y.remove("apple")
+print(y)
+x=tuple(y)
+print(x)
+for i in x:
+    print(i)
+z=("chips","lays",)
+print(x+z)
+print(z*2)
+print(x.count("apple"))

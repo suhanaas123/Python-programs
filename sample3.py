@@ -1,0 +1,52 @@
+x=[1,"bag",2,"door",5,"apple"]
+print(x)
+print(type(x))
+print(len(x))
+print(x[2])
+print(x[2:4])
+print(x[3:])
+print(x[:5])
+print(x[-1])
+print(x[-5:-2])
+print(x[:-5])
+print(x[-1:])
+print(5 in x)
+print(5 not in x)
+for i in x:
+    print(i)
+x[1]="orange"
+print(x)
+x[3]="pen"
+print(x)
+x.append("boat") 
+print(x)
+x.insert(2,"desk")
+print(x)
+y=["pizza","burger","kfc"]
+x.extend(y)
+print(x)
+x.remove("desk")
+print(x)
+x.pop(3)
+print(x)
+x.pop()
+print(x)
+del x[4]
+print(x)
+z=x.copy()
+print(z)
+c=list(x)
+print(c)
+y=["tomato","potato","onion","beetroot",1,2,1,1]
+#y.sort()
+print(y)
+#y.sort(reverse=True)
+print(y)
+z=x+y
+print(z)
+x.clear()
+print(x)
+#del x
+#print(x)
+f=y.count(1)
+print(f)
